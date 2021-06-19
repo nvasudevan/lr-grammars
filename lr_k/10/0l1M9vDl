@@ -1,0 +1,27 @@
+%start root
+
+%%
+
+root: D Q 'f' F 'e'
+;
+D: 'o' V 'j' L F | 'f'
+;
+Q: E 'f' 'v' 'w' S | 'z' 'b' | U 'n'
+;
+F: 'z' 'w' W 'b' | 'o' D 'z' 'y' 'b' | 
+;
+V: 'w' 'v' L | F | Q
+;
+L: 'f' 'e' | 'b'
+;
+E: 'j' W U V | 
+;
+S: 'e' U 'z' V | Q U
+;
+U: 'z'
+;
+W: E 'e' 'z' S 'n' | 'f' 'e'
+;
+
+
+%%

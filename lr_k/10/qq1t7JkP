@@ -1,0 +1,27 @@
+%start root
+
+%%
+
+root: S | 'e' Q B N M
+;
+S: 'd'
+;
+Q:  | 'f' 'g' U M 'k' | N 'k' 'a'
+;
+B: 'f' 'k'
+;
+N: M | S
+;
+M: 'g'
+;
+U:  | C M L
+;
+C: 'm' 'a' B
+;
+L:  | 'g' 'e' 'm' M | M E 'm'
+;
+E:  | L | N
+;
+
+
+%%

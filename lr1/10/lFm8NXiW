@@ -1,0 +1,29 @@
+%define lr.type canonical-lr
+
+%start root
+
+%%
+
+root: Q C E 'm' 'e' | U S 'e' 'd' Q
+;
+Q: M B 't'
+;
+C: 'd' | 'o' 'k' Q N | L 'd'
+;
+E: 'k' C 'p' M
+;
+U: Q 'f' | 'f' L
+;
+S: L M C B 'g' | U 'g' 'd' | M 'f' 'g'
+;
+M: 'o'
+;
+B: 'm' 'p' 'd'
+;
+N: 'e' 'f' B U
+;
+L: 'f' 'g' | 'd' 't' 'e' U
+;
+
+
+%%

@@ -1,0 +1,31 @@
+%start root
+
+%%
+
+root: V 'p' W | E 'b' 'j' | J 'j' 'q' V
+;
+V: 't' 'd' | T 'z' 'j' H
+;
+W: 'v' 'd' 'q' Q | M J H T | E
+;
+E: T 'b' G Q
+;
+J: V L 'f' 'z' 'j' |  | 'c' V T E
+;
+T: 'p' 'c' 't' 'v'
+;
+H: L 'b' G M | T 'z' 'j' M X | E W
+;
+Q: G |  | 'f' M 'p' H X
+;
+M: 'z' |  | 'f' T 'r' V 'c'
+;
+G:  | 'b' H W 'e' | L
+;
+L: Q 'b' 't' 'r' V | 
+;
+X: 'r' M 'p'
+;
+
+
+%%

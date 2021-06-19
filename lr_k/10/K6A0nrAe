@@ -1,0 +1,27 @@
+%start root
+
+%%
+
+root: 'c' V | 'w' 'o' T Y 't' | Z Y V
+;
+V: 'h' 'b' C Y U | E 'k' 'u' T | 
+;
+T: 'u' 'e' 'h'
+;
+Y: V C |  | U
+;
+Z: 'o' | E 'c' Y C 'u' | 'w' V
+;
+C: B 'k' 'o' | E Y
+;
+U:  | T 'e' E C 'o'
+;
+E: B 'i' | 't' 'e' V 'i' T | 'k' 'o' H T
+;
+B: 'h' 'w' H 'b' 't'
+;
+H: T B 'h' | C 'b'
+;
+
+
+%%
